@@ -1,0 +1,117 @@
+@import '../../../styles/mixins';
+
+.container {
+  @include container;
+  .about {
+    @include flex-section;
+    .left_side {
+      @include img-sec;
+    }
+
+    .right_side {
+      @include content-sec;
+      justify-content: unset;
+
+      .circle {
+        height: 30%;
+        display: flex;
+        justify-content: flex-end;
+      }
+      .main_head {
+        @include main-head;
+        @include fontFamily;
+        font-size: 30px;
+        p {
+          border-left: var( --bs-border_subHeading);
+          padding-left: 0.8rem;
+          margin: 0;
+        }
+      }
+      .main_text {
+        @include main-text;
+        @include fontFamily;
+      }
+    }
+    .buttons {
+      display: flex;
+      gap: 1rem;
+      .dark_button {
+        @include button;
+        @include fontFamily;
+        background-color: #003554;
+        min-width: 10rem;
+        border: none;
+        color: #f5f5f5;
+      }
+      .light_button {
+        @include button;
+        @include fontFamily;
+        background-color: #f5f5f5;
+        min-width: 10rem;
+        color: #003554;
+        border: 0.2px #003554 solid;
+      }
+    }
+  }
+}
+
+@media (min-width: 550px) and (max-width: 780px) {
+  body {
+    .container {
+      .about {
+        height: 70vh;
+        .left-side {
+          width: 60%;
+          display: flex;
+        }
+        .right_side {
+          padding: 0;
+          height: 300px;
+          overflow-y: scroll;
+          .main-head {
+            font-size: 25px;
+            line-height: 16px;
+          }
+          .main_text {
+            font-size: 12px;
+            line-height: 16px;
+          }
+          .buttons {
+            .dark_button {
+              padding: 6px;
+              @include fontFamily;
+              font-size: 16px;
+              background-color: #003554;
+              width: 6rem;
+            }
+            .light_button {
+              padding: 6px;
+              @include fontFamily;
+              font-size: 16px;
+
+              width: 7rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 780px) and (max-width: 1280px) {
+  body {
+    .container {
+      .about {
+        .left-side {
+          width: 30%;
+          .about_img {
+            width: 200px !important;
+            height: 200px !important;
+          }
+        }
+        .right_side {
+          width: 40%;
+        }
+      }
+    }
+  }
+}

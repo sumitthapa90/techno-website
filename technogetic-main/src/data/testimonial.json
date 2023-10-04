@@ -1,0 +1,38 @@
+
+{"testimonialHeadData": {
+  "heading": "What our client says",
+  "para": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+},
+
+"cardsData":[
+{      "name": "Harshit Verma",
+      "position": "CTO",
+      "para": "Technogetic has helped us at OpenCures develop newAPI services  what we.........",
+      "date": "Nov 16,2022",
+      "ImgUrl": "./assets/CTO.svg"
+    },
+    {
+      "name": "ram Verma ",
+      "position": "CEO",
+      "para": "Technogetic has helped us at OpenCures develop newAPI services  what we.........",
+      "date": "Nov 16,2022",
+      "ImgUrl": "./assets/CEO.svg"
+    }
+   ,
+    {
+      "name": "Ravi Verma",
+      "position": "CTO",
+      "para": "Technogetic has helped us at OpenCures develop newAPI services  what we.........",
+      "date": "Nov 16,2022",
+      "ImgUrl": "./assets/CTO.svg"
+    },
+    {
+      "name": "Verma ",
+      "position": "CEO",
+      "para": "Technogetic has helped us at OpenCures develop newAPI services  what we.........",
+      "date": "Nov 16,2022",
+      "ImgUrl": "./assets/CEO.svg"
+    }
+  ]}
+  
+

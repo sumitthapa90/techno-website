@@ -1,0 +1,30 @@
+{
+  "industriesData": {
+    "heading": "Worked with different industries",
+    "para": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown "
+  },
+
+  "slidesData": [
+    {
+      "imageUrl": "./assets/DOC.svg",
+      "title1": "Title 1",
+      "title": "Technogetic developed software for Healthcare",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.",
+      "button": "Explore More"
+    },
+    {
+      "imageUrl": "./assets/veggies.svg",
+      "title1": "Title 2",
+      "title": "Technogetic developed software for E-commerce store",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.",
+      "button": "Explore More"
+    },
+    {
+      "imageUrl": "./assets/plane.svg",
+      "title1": "Title 3",
+      "title": "Technogetic developed software for Logistics",
+      "desc": " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled. ",
+      "button": "Explore More"
+    }
+  ]
+}

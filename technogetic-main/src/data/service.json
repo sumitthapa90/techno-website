@@ -1,0 +1,70 @@
+{"servicehead":{
+  "maintitle": "Our services",
+  "maindesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has industry's standard dummy text ever since the 1500s,when an unknown printer"
+},
+"cardsData":[
+  {
+    "title": "Web Development",
+    "imageUrl1": "./assets/WebDevelopment1.svg",
+    "imageUrl2": "./assets/WebDevelopment2.svg",
+    "number": "01",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting....."
+  },
+  {
+    "title": "Mobile App Development",
+    "imageUrl1": "./assets/Appdevelopment1.svg",
+    "imageUrl2": "./assets/Appdevelopment2.svg",
+    "number": "02",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting....."
+  },
+  {
+    "title": "Digital Marketing",
+    "imageUrl1": "./assets/DigitalMarketing1.svg",
+    "imageUrl2": "./assets/DigitalMarketing2.svg",
+    "number": "03",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting....."
+  },
+  {
+    "title": "Graphic Designer",
+    "imageUrl1": "./assets/GraphicDesinging1.svg",
+    "imageUrl2": "./assets/GraphicDesinging2.svg",
+    "number": "04",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting....."
+  },
+  {
+    "title": "SEO",
+    "imageUrl1": "./assets/SEO1.svg",
+    "imageUrl2": "./assets/SEO2.svg",
+    "number": "05",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting....."
+  },
+  {
+    "title": "Blockchain",
+    "imageUrl1": "./assets/BlockchainServices1.svg",
+    "imageUrl2": "./assets/BlockchainServices2.svg",
+    "number": "06",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting....."
+  },
+  {
+    "title": "Devops",
+    "imageUrl1": "./assets/Devops1.svg",
+    "imageUrl2": "./assets/Devops2.svg",
+    "number": "07",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting....."
+  },
+  {
+    "title": "Staff Augmentation",
+    "imageUrl1": "./assets/Teamaugmentaion1.svg",
+    "imageUrl2": "./assets/Teamaugmentaion2.svg",
+    "number": "08",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting....."
+  },
+  {
+    "title": "Product Consulting",
+    "imageUrl1": "./assets/ProductConsultancy1.svg",
+    "imageUrl2": "./assets/ProductConsultancy2.svg",
+    "number": "9",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting....."
+  }
+]}
+

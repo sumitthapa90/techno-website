@@ -1,0 +1,57 @@
+{
+  "company": [
+    {
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "label": "Investors",
+      "href": "/investors"
+    },
+    {
+      "label": "Feactures",
+      "href": "/feactures"
+    },
+    {
+      "label": "Careers",
+      "href": "/careers"
+    },
+    {
+      "label": "Services",
+      "href": "/services"
+    }
+  ],
+  "Services": [
+    {
+      "label": "Graphic Designing",
+      "href": "/about"
+    },
+    {
+      "label": "UI/UX Desining",
+      "href": "/about"
+    },
+    {
+      "label": "Web Development",
+      "href": "/about"
+    },
+    {
+      "label": "App Development",
+      "href": "/about"
+    },
+    {
+      "label": "Degital Marketing",
+      "href": "/about"
+    }
+  ],
+  "contacts": [
+    {
+      "label": "+919779992878"
+    },
+    {
+      "label": "WeWork-100 Harris St, Sydney NSW 2009, Australia"
+    },
+    {
+      "label": "info@technogetic.com"
+    }
+  ]
+}

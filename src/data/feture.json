@@ -1,0 +1,34 @@
+
+
+{    "featureData":{
+        "title": "Featured case studies",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has industry's standard dummy text ever since the 1500s,when an unknown printer"
+       
+    },
+    "slidesData": [
+    {
+      "imageUrl": "./assets/skelitonBody.svg",
+      "title": "Title 1",
+      "imageUrl1": "./assets/icon1.svg",
+      "title1": "“Structural Engineering Services”",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.",
+      "button": "Visit Website"
+    },
+    {
+      "imageUrl": "./assets/skelitonBody.svg",
+      "title": "Title 2",
+      "imageUrl1": "./assets/icon2.svg",
+      "title1": "“Structural Engineering Services”",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.",
+      "button": "Visit Website"
+    },
+    {
+      "imageUrl": "./assets/skelitonBody.svg",
+      "title": "Title 3",
+      "imageUrl1": "./assets/icon3.svg",
+      "title1": "“Structural Engineering Services”",
+      "desc": " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled. ",
+      "button": "Visit Website"
+    }
+  ]
+}

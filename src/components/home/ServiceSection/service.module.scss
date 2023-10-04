@@ -1,0 +1,183 @@
+@import '../../../styles/mixins';
+
+.service_sec {
+  
+.container{
+  @include container-lg;
+  .service {
+    @include flex-section;
+    flex-direction: column;
+    &_head {
+      @include flex-container;
+      .main_head {
+        @include main-head;
+        @include fontFamily;
+        font-size: 30px;
+        border-left:var( --bs-border_subHeading);
+        padding-left: 0.8rem;
+        margin: 0;
+      }
+      .main_text {
+        width: 60%;
+        display: flex;
+        text-align: center;
+        @include main-text;
+        @include fontFamily;
+      }
+    }
+    &_img {
+      height: 30%;
+      display: flex;
+      justify-content: flex-end;
+    }
+    &_cards { 
+      &_carousel {
+    
+        position: unset;
+        button:nth-child(2) {
+          background-color: var(--bs-darkBlue);
+          color: var(--bs-white);
+          box-shadow:  #aad4ea 35px 15rem 20rem 86px;
+         
+          
+          left: calc(4%);
+        }
+        button:nth-child(3) {
+          background-color: var(--bs-white);
+          color: var(--bs-darkBlue) !important;
+          right: calc(4%);
+          box-shadow:  var(--bs-Lt);
+          border: var( --bs-border_darkblue);
+        }
+        button:nth-child(3)::before {
+          color: var(--bs-darkBlue);
+        }
+      }
+    }
+  }}
+}
+.images {
+  margin: 2.5rem 0;
+  &_display {
+    margin: 2.5rem;
+  }
+
+  .service_cards {
+    @include container_lg;
+  }
+}
+
+@media (min-width: 464px) and (max-width: 1024px) {
+  .service_sec {
+    margin: 2rem 0;
+    .container{
+     
+      .service {
+        
+        &_head {
+          @include flex-container;display: flex;
+          text-align: center;
+          padding: 2rem 6rem;
+          
+          .main_head {
+            @include main-head;
+            @include fontFamily;
+        
+              font-size: 24px !important;
+            
+            border-left:var( --bs-border_subHeading);
+            padding-left: 0.8rem;
+            margin: 0;
+            
+          }
+          .main_text {
+            width: 100%;
+            display: flex;
+            text-align: center;
+            @include main-text;
+            @include fontFamily;
+            font-size: 14px !important;
+          }
+        }
+        &_img {
+          padding: 0 5rem 0 0;
+        }
+        &_cards { 
+          &_carousel {
+        
+            position: unset;
+            button:nth-child(2) {
+              background-color: var(--bs-darkBlue);
+              color: var(--bs-white);
+              box-shadow:  #aad4ea 35px 15rem 20rem 86px;
+              min-width: 30px;
+              min-height: 30px;
+              
+              left: calc(3%);
+            }
+            button:nth-child(3) {
+              background-color: var(--bs-white);
+              color: var(--bs-darkBlue) !important;
+              right: calc(3%);
+              box-shadow:  #2196f3 0px 12px 80px 1px;
+              border: var( --bs-border_darkblue);
+              min-width: 30px;
+              min-height: 30px;
+            }
+            button:nth-child(2)::before{
+              font-size: 10px;
+              color: #fff;
+              display: block;
+              font-family: revicons;
+              text-align: center;
+              z-index: 2;
+              position: relative;
+            }
+            button:nth-child(3)::before {
+              color: var(--bs-darkBlue);
+              font-size: 10px;
+              display: block;
+              font-family: revicons;
+              text-align: center;
+              z-index: 2;
+              position: relative;
+            }
+          }
+        }
+      }}
+    
+  }
+}
+@media (min-width: 0px) and (max-width: 464px) {
+  .service_sec {
+    .container{
+     
+      .service {
+        
+&_head {
+  @include flex-container;
+  .main_head {
+    @include main-head;
+    @include fontFamily;
+    font-size: 18px;
+    border-left:var( --bs-border_subHeading);
+    padding-left: 0.8rem;
+    margin: 0;
+  }
+  .main_text {
+    
+  font-size: 12px !important;
+    display: flex;
+    text-align: center;
+    @include main-text;
+    @include fontFamily;
+
+  }
+}
+&_img {
+ padding: 0 2rem;
+ .c_img{
+  height: 25px;
+  width: 30px;
+ }
+}}}}}

@@ -1,0 +1,146 @@
+@mixin fontFamily {
+  font-family: 'Roboto';
+}
+
+@mixin flexBox {
+  justify-content: space-between;
+  display: flex;
+}
+
+@mixin flexAround {
+  justify-content: space-around;
+  display: flex;
+}
+@mixin text {
+  color: #6c757d;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 22px;
+  font-style: normal;
+}
+@mixin footer-bg {
+  background-color: var( --bs-footer_bg);
+}
+@mixin heading {
+  color: var( --bs-darkBlue);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+ 
+}
+
+@mixin main-head {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0.01em;
+  color:  var( --bs-darkBlue);
+}
+@mixin sub-head {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  color: var( --bs-darkBlue);
+}
+@mixin main-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var( --bs-lightGray);
+  letter-spacing: 0.015em;
+  padding: 1rem 1rem 1rem 0;
+}
+@mixin sub-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: var( --bs-lightGray);
+}
+@mixin img-sec {
+  width: 50%;
+}
+@mixin content-sec {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@mixin list-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@mixin button {
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+}
+@mixin flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+@mixin bg-color {
+  background-image: var(--bs-MixinxGradient);
+}
+@mixin openSen {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: var(--bs-skyBlue);
+}
+
+@mixin container-lg {
+  max-width: 1350px;
+
+  margin: 0 auto;
+}
+@mixin direction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+@mixin head-bold {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0.011em;
+  text-align: left;
+  color: var(--bs-darkBlue);
+}
+@mixin form-inputs {
+  background-color: transparent !important;
+  border: var(--bs-white) !important;
+  font-size: 16px;
+  color: var(--bs-white) !important;
+  padding-bottom: 0.4rem;
+  border-bottom: var(--bs-form_border) !important;
+  @include fontFamily;
+}
+@mixin placeholder {
+  font-size: 16px;
+  line-height: 22px;
+  @include fontFamily;
+  letter-spacing: 0.01em;
+  color: var(--bs-white) !important;
+}

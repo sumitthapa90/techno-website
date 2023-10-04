@@ -1,0 +1,47 @@
+:root {
+  --bs-skyBlue: #0094da;
+  --bs-white: #ffffff;
+  --bs-lightGray: #6c757d;
+  --bs-lightBlue: #006494;
+  --bs-darkBlue: #003554;
+  --bs-black: #051923;
+  --bs-red: #ff0000;
+  --bs-footer_bg: #F5F5F5;
+  --bs-form_border: 1px solid rgba(255, 255, 255, 0.743);
+  --bs-hover_border: 1px solid rgba(255, 255, 255, 0.45);
+  --bs-border_subHeading: 3px solid#0094da;
+  --bs-black: #051923;
+  --bs-Btn_background_color_blue: #003554;
+  --bs-Btn_background_color_white: #f5f5f5;
+  --bs-Btn_border_color_white: 0.2px #003554 solid;
+  --bs-border: 1px solid rgb(0, 148, 218);
+  --bs-border_darkblue: 1px solid #003554;
+  --bs-boxShadow: #2196f3 0px 12px 80px 1px;
+  --bs-cardslider: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --bs-cardsColor: rgba(12, 12, 12, 0.35);
+  --bs-ellipse_light: 1px solid #abdef5;
+  --bs-hover_btn: rgb(243, 240, 240);
+  --bs-spinner: rgb(188, 226, 241)
+  --bs-boxshadowMailbox: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  --bs-boxShadow_techn: #c2e0f3 0px 20px 25px -5px, #c2e0f3 0px 10px 10px -5px;
+  --bs-LinearGradient: linear-gradient(to right, #e1f0f8, #d9edf7);
+  --bs-LinearGradient_blue_black: linear-gradient(
+    122.21deg,
+    rgba(0, 148, 218, 0.98) 43.75%,
+    rgba(205, 239, 255, 0) 216.43%
+  );
+  --bs-MixinxGradient: linear-gradient(to right, #c3e4f5, #fdfeff, #bce2f5)
+
+  --bs-btn_boxShadow: #053a66 0px 12px 80px 1px;
+  --bs-Lt: #2196f3 0px 12px 80px 1px;
+  
+  --bs-hover_arrow: rgba(0, 0, 0, 0.1);
+
+  --bs-LinearGradient_gray_black_black: linear-gradient(122.64deg, rgba(205, 239, 255, 0.7) 33.33%, rgba(205, 239, 255, 0) 113.77%);
+  --bs-LinearGradient_testimonial: linear-gradient(#cdefff, #fcfeff);
+ 
+  --bs-effect: drop-shadow(0px 99px 40px #cdefff);
+  --border-left: 3px solid #ffff;
+  --bs-contact_img: linear-gradient(98.46deg, #0094da 41.1%, rgba(0, 148, 218, 0) 104.77%);
+  --bs-cardLinerarShade: linear-gradient(#CDEFFF, rgb(247, 247, 245));
+}

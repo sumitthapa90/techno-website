@@ -1,0 +1,29 @@
+@import '../../styles/mixins';
+.industries{
+   @include flex-section;
+   margin: 0 3rem;
+    &_left_sec{
+        @include content-sec;
+     
+        .heading{
+            @include sub-head;
+            @include fontFamily;
+        }
+        .desc{
+            @include main-text;
+            @include fontFamily;
+        }
+        .button{
+            @include button;
+            box-shadow: none !important;
+            background-color: #003554 !important;
+            max-width: 10rem !important;
+            border: none !important;
+            color: var( --bs-footer_bg) !important;
+            @include fontFamily;
+        }
+    }
+    &_right_sec{
+        @include img-sec;
+    }
+}

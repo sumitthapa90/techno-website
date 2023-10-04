@@ -1,0 +1,141 @@
+@import '../../../styles/mixins';
+
+
+.container {
+  @include container-lg;
+
+  .head_sec {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 6rem;
+    align-items: center;
+    width: unset;
+    .heading_sec {
+      padding-left: 0.8rem;
+      font-size: large;
+      @include heading;
+      @include fontFamily;
+
+      font-size: 32px;
+
+      border-left: var(--bs-border_subHeading);
+    }
+    .para {
+      @include text;
+      @include fontFamily;
+    }
+
+    .navigation_arrow {
+      background-color: var(--bs-skyBlue);
+    }
+  }
+
+
+
+  
+}
+
+  .testimonial {
+    padding: 1rem;
+    @include container-lg;
+    box-sizing: border-box;
+    .carousel {
+    
+      position: unset;
+      button:nth-child(2) {
+        background-color: var(--bs-darkBlue);
+        color: var(--bs-white);
+        box-shadow:  #aad4ea 35px 15rem 20rem 86px;
+       
+        
+        left: calc(5%);
+      }
+      button:nth-child(3) {
+        background-color: var(--bs-white);
+        color: var(--bs-darkBlue) !important;
+        right: calc(5%);
+        box-shadow:  var(--bs-Lt);
+        border: var( --bs-border_darkblue);
+      }
+      button:nth-child(3)::before {
+        color: var(--bs-darkBlue);
+      }
+    }
+  }
+
+
+
+@media (min-width: 464px) and (max-width: 1024px) {
+
+.container {
+  @include container-lg;
+
+  .head_sec {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 6rem;
+    align-items: center;
+    width: unset;
+    .heading_sec {
+      
+      font-size: large;
+      @include heading;
+      @include fontFamily;
+padding-left: 0.8rem;
+      margin: unset;
+      font-size: 24px;
+
+      border-left: var(--bs-border_subHeading);
+    }
+    .para {
+      @include text;
+      @include fontFamily;
+      font-size: 14px;
+      width: unset;
+    }
+
+    .navigation_arrow {
+      background-color: var(--bs-skyBlue);
+    }
+  }
+
+}}
+
+
+@media (min-width:0 ) and (max-width: 464px) {
+
+  .container {
+   
+  
+    .head_sec {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      width: unset;
+      text-align: center;
+      padding: 0 1rem;
+      .heading_sec {
+        padding-left: 0.8rem;
+        width: unset;
+        font-size: 18px;
+  
+        border-left: var(--bs-border_subHeading);
+      }
+      .para {
+        @include text;
+        @include fontFamily;
+        font-size: 12px;
+        width: unset;
+      }
+  
+      .navigation_arrow {
+        background-color: var(--bs-skyBlue);
+      }
+    }
+  
+  }}

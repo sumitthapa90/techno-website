@@ -1,0 +1,44 @@
+[
+
+    {   "id": "home",
+        "title": "Home",
+        "url":"/",
+        "cName": "nav_link"
+       
+    },
+
+    {
+        "id": "about",
+        "title": "About",
+        "url":"#about",
+        "cName": "nav_link"
+       
+    },
+    {
+        "id": "services",
+        "title": "Services",
+        "url":"#service",
+        "cName": "nav_link"
+       
+    },
+    {
+        "id": "Portfolio",
+        "title": "Portfolio",
+        "url":"#portfolio",
+        "cName": "nav_link"
+       
+    },
+    {
+        "id": "contact",
+        "title": "Contact",
+        "url":"#contact",
+        "cName": "nav_link"
+       
+    },
+    { "id": "careers",
+        "title": "Careers",
+        "url":"#carriers",
+        "cName": "nav_link"
+       
+    } 
+]

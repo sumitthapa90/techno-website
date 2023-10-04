@@ -1,0 +1,264 @@
+@import '../../../styles/mixins';
+
+.footer {
+  .container {
+    // @include container-lg;
+    @include footer-bg;
+    padding: 5rem;
+    .top {
+      @include flexBox;
+      .logo {
+        ul {
+          padding: 0;
+        }
+      }
+
+      .company,
+      .service,
+      .contact {
+        width: 14%;
+        display: flex;
+        flex-direction: column;
+        p {
+          @include heading;
+          font-family: 'Roboto';
+          font-weight: 500 !important;
+        }
+
+        ul {
+          flex-direction: column;
+          display: flex;
+          padding: 0 !important;
+        }
+        li {
+          list-style: none;
+          @include fontFamily;
+          margin: 0.5rem 0;
+          @include text;
+        }
+      }
+      .logo {
+        display: flex;
+
+        flex-direction: column;
+        width: 18%;
+
+        li {
+          list-style: none;
+          @include fontFamily;
+          @include text;
+          display: flex;
+          flex-direction: row;
+          padding: 0.3rem 0;
+          margin: 0.5rem 0;
+        }
+        .links {
+          ul {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+          }
+          li {
+            list-style: none;
+            @include fontFamily;
+            @include text;
+            display: contents;
+            margin: 0.5rem 0;
+          }
+        }
+      }
+    }
+  }
+  .bottom {
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    position: relative;
+    background: var(--bs-white);
+    p {
+      font-family: 'Roboto';
+      @include text;
+      color: var(--bs-darkBlue);
+    }
+
+    .arrow_button {
+      position: absolute;
+      right: 16rem;
+      top: -2rem;
+      border: none;
+      background-color: transparent;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer {
+    .container {
+      @include footer-bg;
+      padding: 5rem;
+      .top {
+        @include flexBox;
+        .logo {
+          ul {
+            padding: 0;
+          }
+        }
+
+        .content {
+          width: 22%;
+          display: flex;
+          flex-direction: column;
+          p {
+            @include heading;
+            font-family: 'Roboto';
+            font-weight: 500 !important;
+            font-size: 16px;
+          }
+
+          ul {
+            flex-direction: column;
+            display: flex;
+            padding: 0 !important;
+          }
+          li {
+            list-style: none;
+            @include fontFamily;
+            margin: 0.3rem 0;
+            @include text;
+            font-size: 14px;
+          }
+        }
+        .logo {
+          display: flex;
+
+          flex-direction: column;
+          width: 30%;
+
+          li {
+            list-style: none;
+            @include fontFamily;
+            @include text;
+            display: flex;
+            flex-direction: row;
+            padding: 0.3rem 0;
+            margin: 0.5rem 0;
+            font-size: 14px;
+          }
+          .links {
+            ul {
+              width: 60%;
+              display: flex;
+              justify-content: space-evenly;
+            }
+            li {
+              list-style: none;
+              @include fontFamily;
+              @include text;
+              display: contents;
+              margin: 0.5rem 0;
+            }
+          }
+        }
+      }
+    }
+    .bottom {
+      p {
+        font-family: 'Roboto';
+        @include text;
+        font-size: 14px;
+        color: var(--bs-darkBlue);
+      }
+      .arrow_button {
+        position: absolute;
+        right: 8rem;
+        top: -2rem;
+        border: none;
+        background-color: transparent;
+        .arrow_image {
+          width: 45px;
+          height: 55px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 0px) and (max-width: 464px) {
+  .footer {
+    .container {
+      @include footer-bg;
+      padding: 3rem;
+      .links {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        .icons {
+          height: 10px;
+          width: 15px;
+        }
+      }
+      .top {
+        display: flex;
+        flex-direction: column;
+
+        .company {
+          p {
+            display: none;
+          }
+          ul {
+            display: none;
+            li {
+              display: none;
+            }
+          }
+        }
+        .logo_img {
+          width: 100px;
+          height: 50px;
+        }
+        .logo,
+        .service,
+        .contact {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          align-items: center;
+          margin: 18px 0;
+          p {
+            margin: 2px;
+          }
+
+          ul {
+            margin: 3px;
+          }
+          li {
+            display: flex;
+            align-items: center;
+            margin: 5px;
+            font-size: 14px;
+            justify-content: center;
+            text-align: center;
+          }
+        }
+      }
+    }
+    .bottom {
+      p {
+        font-family: 'Roboto';
+        @include text;
+        font-size: 12px;
+        color: var(--bs-lightGray);
+      }
+      .arrow_button {
+        position: absolute;
+        right: 2px;
+        top: -2rem;
+        border: none;
+        background-color: transparent;
+        .arrow_image {
+          width: 40px;
+          height: 60px;
+        }
+      }
+    }
+  }
+}

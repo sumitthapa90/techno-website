@@ -1,0 +1,85 @@
+@import '../../../styles/mixins';
+.container {
+  @include container-lg;
+  .contact {
+    background: var( --bs-contact_img);
+    border-radius: 2rem;
+    display: flex;
+    position: relative;
+    margin: 5.8rem 0;
+    .left_side {
+      width: 50%;
+      padding: 2.5rem 0 5rem 5rem;
+      font-weight: 600;
+      font-size: 22px;
+      .form_head {
+        margin: 0 2rem;
+        p {
+          border-left: var( --border-left);
+          padding-left: 0.8rem;
+          color: var(--bs-white);
+          @include fontFamily ;
+        }
+      }
+    }
+    .right_side {
+      width: 50%;
+      &_img {
+        bottom: 0rem;
+        position: absolute;
+      }
+    }
+  }
+}
+@media (min-width: 464px) and (max-width: 1024px) {
+  .container {
+    .contact {
+      margin: 1.8rem;
+      .left_side {
+        padding: 1.5rem 0 2rem 1rem;
+        .form_head {
+      font-size: 18px;
+          p {
+          }
+        }
+      }
+      .right_side {
+        width: 50%;
+        &_img {
+          bottom: 0rem;
+          position: absolute;
+          height: 350px;
+          width: 350px;
+        }
+        }
+      }
+    }
+  }
+  @media (min-width: 0) and (max-width: 464px) {
+    .container {
+      .contact {
+        margin: 1.8rem;
+        .left_side {
+       width: 100%;
+       padding: 0.5rem;
+          .form_head {
+ font-size: 16px;
+ font-weight: 400;
+            p {
+            }
+          }
+        }
+        .right_side {
+        display: none ;
+          }
+        }
+      }
+  }
+  @media (min-width: 464px) and (max-width: 765px){
+    .container {
+      .contact {.right_side {
+      display: none ;
+        }
+      
+  }}}
+ 

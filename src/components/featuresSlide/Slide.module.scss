@@ -1,0 +1,107 @@
+@import '../../styles/mixins';
+.industries{
+   @include flex-section;
+   margin: 0 3rem;
+    &_left_sec{
+        @include list-sec;
+        margin-top: 6rem;
+     .image{
+      
+        justify-content: center;
+        display: flex
+    }
+        .heading{
+            @include sub-head;
+            @include fontFamily;
+        }
+        .desc{
+            @include main-text;
+            @include fontFamily;
+            display: flex;
+        align-items: center !important;
+        text-align: center;
+    padding: 2rem 1rem !important;
+    margin: 0;
+    font-size: 12px;
+        }
+        .button{
+            @include button;
+            @include fontFamily;
+            background-color: var( --bs-darkBlue) !important;
+            min-width: 10rem !important;
+            border: none !important;
+            color: var(--bs-footer_bg) !important;
+        }
+    }
+    &_right_sec{
+        @include img-sec;
+    }
+}
+@media (min-width: 464px) and (max-width: 1024px) {
+    .industries{
+        flex-direction: column-reverse;
+        margin: 0;
+         &_left_sec{
+         
+          .image{
+       display: none
+         }
+             .heading{
+            margin: 0;
+            font-size: 24px;
+             }
+             .desc{
+                text-align: center;
+                padding: 2rem 6rem;
+                margin: 0;
+                font-size: 14px;
+             }
+             .button{
+             
+             }
+         }
+         &_right_sec{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+             .card_image{
+                height: 400px;
+                width: 400px;
+             }
+         }
+     }
+}
+@media (min-width: 0px) and (max-width: 464px) {
+    .industries{
+        flex-direction: column-reverse;
+        margin: 0;
+         &_left_sec{
+         
+          .image{
+       display: none
+         }
+             .heading{
+            margin: 0;
+            font-size: 18px;
+             }
+             .desc{
+                text-align: center;
+                padding: 2rem 6rem;
+                margin: 0;
+                font-size: 12px;
+             }
+             .button{
+             
+             }
+         }
+         &_right_sec{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+             .card_image{
+                height: 200px;
+                width: 250px;
+             }
+         }
+     }
+}

@@ -1,0 +1,172 @@
+@import '../../styles/mixins';
+
+.form {
+  display: inherit;
+  margin: 2rem;
+  @include fontFamily;
+
+.input {
+  @include form-inputs;
+  margin: 0px 4rem 0 0;
+  &:focus , &:hover ,  &:focus-visible , &:focus-within{
+   @include form-inputs;
+  }
+}
+.input::placeholder,
+.message::placeholder {
+  @include placeholder;
+}
+.message {
+  @include form-inputs;
+  width: 88%;
+}
+
+.feilds{
+  font-family: "Roboto";
+  margin: 0px 0rem 1rem 0;
+    display: flex;
+  flex-direction: row;
+}
+.validations{
+    display: flex;
+    flex-direction: column;
+}
+.error{
+  background-color: transparent;
+  color: var( --bs-red);
+  font-weight: 300;
+  font-size: 13px;
+  max-width: 150px;
+  margin: 5px 0px;
+}}
+.light_button {
+  @include button;
+  @include fontFamily;
+  background-color: var( --bs-footer_bg);
+  min-width: 10rem;
+  color: var( --bs-darkBlue);
+  padding: 8px 5px !important;
+  border: none;
+  margin: 0 2rem;
+}
+@media (min-width: 464px) and (max-width: 1024px) {
+  .form {
+
+
+.input {
+  font-size: 12px;
+  @include form-inputs;
+  margin: 0px 10rem 0 0;
+  width: 90%;
+  &:focus , &:hover ,  &:focus-visible , &:focus-within{
+   @include form-inputs;
+  }
+}
+.input::placeholder,
+.message::placeholder {
+  @include placeholder;
+  font-size: 14px
+}
+.message {
+  @include form-inputs;
+   width: 106%;
+  font-size: 12px;
+}
+
+.feilds{
+  
+}
+.validations{
+    display: flex;
+    flex-direction: column;
+}
+.error{
+
+  font-size: 10px;
+
+}}
+
+}
+@media (min-width: 0) and (max-width: 464px) {
+  .form {
+
+
+.input {
+  @include form-inputs;
+  
+  font-size: 12px;
+  margin: 0px 3rem 0 0;
+  width: 88%;
+  &:focus , &:hover ,  &:focus-visible , &:focus-within{
+   @include form-inputs;
+   
+  }
+}
+.input::placeholder,
+.message::placeholder {
+  @include placeholder;
+  font-size: 12px
+}
+.message {
+  @include form-inputs;
+  width: 94%;
+  font-size: 12px;
+}
+
+.feilds{
+  
+}
+.validations{
+    display: flex;
+    flex-direction: column;
+}
+.error{
+
+  font-size: 10px;
+
+}}}
+
+
+
+// @media (min-width: 321px) and (max-width: 375px) {
+//   .form{
+//   .input{
+//     margin: 0px 0rem 0 0;
+//     width: 90%;
+// }
+// }
+// }.light_button{
+//   margin: 0 4.5rem !important; 
+// }
+@media (min-width: 376px) and (max-width: 425px) {
+  .form{
+  .input{
+    margin: 0px 0rem 0 0;
+    width: 87%;
+}
+}
+.light_button{
+  margin: 0rem  5.5rem !important;
+}}
+@media (min-width: 775px) and (max-width: 1024px) {
+  .form{
+    .input{
+      margin: 0px 14rem 0 0;
+  width: 85%;
+  }
+  .message{ 
+    width: 100%;
+  }
+ 
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .form{
+    .input{
+      margin: 0px 5rem 0 0;
+
+  }
+  .message{ 
+    width: 80% !important;
+  }
+  }
+}}

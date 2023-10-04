@@ -1,0 +1,32 @@
+[
+  {
+    "heading": "Contact Us",
+    "title": "We always ready to help you",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    "button": "Get in touch"
+  },
+  {
+    "heading": "Contact Us",
+    "title": "We always ready to help you",
+    "phone": "+61 2 79082893",
+    "phone1": "+1 347-814-0276",
+    "phone2": "+919779992878",
+    "button": "Get in touch"
+  },
+  {
+    "heading": "Contact Us",
+    "title": "We always ready to help you",
+    "email": "info@technogetic.com",
+    "email1": "jalajgmail.com",
+    "email2": "hr@technogetic.com",
+    "button": "Get in touch"
+  },
+  {
+    "heading": "Contact Us",
+    "title": "We always ready to help you",
+    "address": "WeWork-100 Harris St, Sydney NSW 2009 Australia",
+    
+    "address1": "WORKVILLE-1412 Broadway 21st Floor,ner York",
+    "button": "Get in touch"
+  }
+]

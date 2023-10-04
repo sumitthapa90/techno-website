@@ -1,0 +1,100 @@
+.card {
+
+  min-height: 9.3rem;
+  font-family: Roboto;
+  background:
+   var(--bs-LinearGradient_gray_black_black);
+  border-radius: 12px;
+  border-radius: 8px;
+  box-shadow: var( --bs-cardslider);
+  margin: 2rem 2rem;
+  padding: 3rem 3rem;
+
+  &_heads {
+    display: flex;
+    flex-direction: column;
+   width: 50%;
+  }
+
+  &_top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
+  &_number {
+    font-size: 42px;
+    color: rgba(108, 117, 125, 0.35);
+  }
+  &_title {
+    font-weight: 400;
+    font-size: 20px;
+    max-width: 7rem;
+    color: var(--bs-darkBlue);
+  }
+
+  &_description {
+    font-size: 16px;
+    color: var(--bs-lightGray);
+  }
+}
+
+.card:hover {
+  background:  var( --bs-LinearGradient_blue_black);
+
+  
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .card {
+    &_number {
+      font-size: 35px;
+    }
+   
+    &_description {
+      font-size: 14px;
+    }
+  }
+}
+.card:hover .card_number {
+  color: rgba(255, 255, 255, 0.45);
+}
+.card:hover .card_title {
+  color: var(--bs-white) ;
+}
+.card:hover .card_description {
+  color: var(--bs-white) ;
+}
+@media (min-width: 464px) and (max-width: 1024px) {
+  .card {
+
+    min-height: 10rem;
+    
+    &_number {
+      font-size: 34px;
+    }
+    &_title {
+      font-size: 18px;
+    }
+  
+    &_description {
+      font-size: 14px;    }
+  }
+}
+@media (min-width: 0px) and (max-width: 464px) {
+  .card {
+
+    min-height: 6rem;
+    
+    &_number {
+      font-size: 28px;
+    }
+    &_title {
+      font-size: 16px;
+    }
+  
+    &_description {
+      font-size: 12px;    }
+  }
+}

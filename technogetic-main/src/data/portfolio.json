@@ -1,0 +1,205 @@
+{
+  "Healthcare": [
+    {
+      "title": "BDR Restaurant",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    },
+    {
+      "title": "PUNCH Store",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text ",
+      "imgUrl": "./assets/mocktails.svg",
+      "LiveLink": "Visit Website"
+    },
+    {
+      "title": "Sabat Restaurant",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/chicken.svg",
+      "LiveLink": "Visit Website"
+    }
+  ],
+  "E-Commerce": [
+    {
+      "title": "Flipcart",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    },
+    {
+      "title": "Snapdeal",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    },
+    {
+      "title": "Snapshot",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    }
+  ],
+  "Food Services": [
+    {
+      "title": "Punjabi Dhabha",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    },
+    {
+      "title": "Karim",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    },
+    {
+      "title": "Katani",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    }
+  ],
+  "Education": [
+    {
+      "title": "Visit Website",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    },
+    {
+      "title": "Visit Website",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    },
+    {
+      "title": "Visit Website",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    }
+  ],
+  "Transpotation": [
+    {
+      "title": "Colleage Website",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    },
+    {
+      "title": "School Website",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    },
+    {
+      "title": "Eduction Website",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    }
+  ],
+  "Loundary": [
+    {
+      "title": "Loundary",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    },
+    {
+      "title": "Loundary",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    },
+    {
+      "title": "Loundary",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    }
+  ],
+  "cars": [
+    {
+      "title": "cars",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    },
+    {
+      "title": "cars",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    },
+    {
+      "title": "cars",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    }
+  ],
+
+  "bikes": [
+    {
+      "title": "bikes",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    },
+    {
+      "title": "bikes",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    },
+    {
+      "title": "bikes",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    }
+  ],
+
+  "Trucks": [
+    {
+      "title": "Trucks",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    },
+    {
+      "title": "Trucks",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    },
+    {
+      "title": "Trucks",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    }
+  ],
+  "Logistics": [
+    {
+      "title": "Trucks",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    },
+    {
+      "title": "Trucks",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    },
+    {
+      "title": "Trucks",
+      "description": "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+      "imgUrl": "./assets/foodScreenShoot.svg",
+      "LiveLink": "Visit Website"
+    }
+  ]
+
+}

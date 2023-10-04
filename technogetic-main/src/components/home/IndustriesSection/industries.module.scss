@@ -1,0 +1,60 @@
+@import '../../../styles/mixins';
+.container {
+  @include container-lg;
+  .industries {
+    &_head {
+      @include flex-container;
+      .main_head {
+        @include main-head;
+        @include fontFamily;
+        font-size: 30px;
+        border-left: var( --bs-border_subHeading);
+        padding-left: 0.8rem;
+        margin: 0;
+      }
+      .main_text {
+        width: 60%;
+        display: flex;
+        text-align: center;
+        @include main-text;
+        @include fontFamily;
+      }
+    }
+    &_bottom {
+      &_carousel {
+        position: unset;
+        button:nth-child(2) {
+          background-color: var(--bs-darkBlue);
+          box-shadow: var(--bs-boxShadow);
+          color: var(--bs-white);
+          left: calc(2%);
+        }
+        button:nth-child(3) {
+          background-color:var(--bs-white);
+          color: var(--bs-darkBlue);
+          box-shadow: var(--bs-boxShadow);
+          right: calc(2%);
+          border: var( --bs-border_darkblue);
+        }
+        button:nth-child(3)::before { 
+          color:  var(--bs-darkBlue)
+
+        }
+        &_slide {
+       
+          &_right_sec {
+            flex: 1;
+          }
+          &_left_sec {
+            flex: 1;
+            text-align: start;
+            font-size: 56px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.015em;
+          }
+        }
+      }
+    }
+  }
+}
